@@ -21,6 +21,14 @@ function HomePageAdmin() {
                     Today's Posts
                 </div>  
                 <div className="inner-today-post">
+                    <div className="inner-header">
+                        <div className="inner-header-name">
+                            Name
+                        </div>
+                        <div className="inner-header-product">
+                            Product
+                        </div>
+                    </div>
                     <Posts />
                     <a href="/PostsSeeAll" >See All</a>
                 </div>
@@ -30,6 +38,14 @@ function HomePageAdmin() {
                     Unapproved Products
                 </div>
                 <div className="inner-unapproved-products">
+                    <div className="inner-header">
+                        <div className="inner-header-name">
+                            Name
+                        </div>
+                        <div className="inner-header-product">
+                            Product
+                        </div>
+                    </div>
                     <Products />
                     <a href="/ProductsSeeAll" >See All</a>
                 </div>
@@ -39,6 +55,20 @@ function HomePageAdmin() {
                     Report
                 </div>
                 <div className="inner-reports">
+                    <div className="inner-report-header">
+                        <div className="inner-report-header-name">
+                            Reported person's name
+                        </div>
+                        <div className="inner-report-header-psid">
+                            Reported person's id
+                        </div>
+                        <div className="inner-report-header-prtid">
+                            Reported product's id
+                        </div>
+                        <div className="inner-report-header-des">
+                            Description
+                        </div>
+                    </div>
                     <Reports />
                     <a href="/ReportsSeeAll" >See All</a>
                 </div>
